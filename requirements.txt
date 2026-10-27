@@ -1,0 +1,34 @@
+# Vehicle Vision — Speed & Distance Monitor
+# requirements.txt
+#
+# Install with:
+#   pip install -r requirements.txt
+#
+# Python 3.11 is the recommended runtime.
+# CPU-only execution is supported.
+
+# --- Core computer vision ---
+ultralytics>=8.2.0          # YOLO v8 + ByteTrack tracker (built in)
+lap>=0.5.12                 # required by Ultralytics ByteTrack
+opencv-python>=4.9.0        # video I/O and drawing
+
+# --- Numerical and data ---
+numpy>=1.24.0
+pandas>=2.0.0
+
+# --- Visualisation ---
+plotly>=5.18.0
+
+# --- Web interface ---
+streamlit>=1.57.0
+
+# --- Admin authentication ---
+argon2-cffi>=23.1.0
+
+# --- REST API ---
+fastapi>=0.115.0
+uvicorn>=0.30.0
+python-multipart>=0.0.9
+
+# --- Testing ---
+pytest>=8.0.0
